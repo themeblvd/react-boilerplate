@@ -1,7 +1,7 @@
 {
     "name": "react-boilerplate",
     "version": "1.0.0",
-    "description": "A starting point for my own react apps, with the structure and tools I want.",
+    "description": "A starting point for my own React apps, with the structure and tools I want.",
     "main": "index.js",
     "scripts": {
         "build": "webpack",
@@ -54,7 +54,6 @@
     ],
     "prettier": {
         "tabWidth": 4,
-        "useTabs": true,
         "singleQuote": true
     }
 }

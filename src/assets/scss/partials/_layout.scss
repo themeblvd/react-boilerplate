@@ -10,7 +10,7 @@
         position: relative;
 
         &:after {
-            content: "";
+            content: '';
             background: url(../img/hero.jpg);
             background-size: cover;
             display: block;
@@ -23,7 +23,8 @@
             z-index: 0;
         }
     }
-    h1, img {
+    h1,
+    img {
         position: relative;
         z-index: 1;
     }

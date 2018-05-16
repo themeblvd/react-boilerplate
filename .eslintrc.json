@@ -4,7 +4,7 @@
         "commonjs": true,
         "es6": true
     },
-    "extends": ["eslint:recommended", "prettier"],
+    "extends": ["plugin:prettier/recommended"],
     "parserOptions": {
         "ecmaFeatures": {
             "experimentalObjectRestSpread": true,
@@ -18,8 +18,7 @@
     ],
     "rules": {
         "indent": [
-            "error",
-            "tab"
+            "error"
         ],
         "linebreak-style": [
             "error",
