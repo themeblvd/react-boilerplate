@@ -35,7 +35,10 @@
     },
     "devDependencies": {
         "eslint": "^4.19.1",
-        "eslint-plugin-react": "^7.8.2"
+        "eslint-config-prettier": "^2.9.0",
+        "eslint-plugin-prettier": "^2.6.0",
+        "eslint-plugin-react": "^7.8.2",
+        "prettier": "1.12.1"
     },
     "browserslist": [
         "last 1 major version",
@@ -48,5 +51,10 @@
         "Safari >= 9",
         "Android >= 4.4",
         "Opera >= 30"
-    ]
+    ],
+    "prettier": {
+        "tabWidth": 4,
+        "useTabs": true,
+        "singleQuote": true
+    }
 }
