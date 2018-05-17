@@ -4,8 +4,8 @@
     "description": "A starting point for my own React apps, with the structure and tools I want.",
     "main": "index.js",
     "scripts": {
-        "build": "webpack",
-        "watch": "webpack --watch",
+        "build": "NODE_ENV=development webpack",
+        "watch": "NODE_ENV=development webpack --watch",
         "server": "browser-sync start --server 'public' --files *",
         "js-lint": "eslint src/**/*.js",
         "js-lint-fix": "eslint src/**/*.js --fix"
@@ -18,6 +18,7 @@
         "babel-loader": "^7.1.4",
         "babel-preset-env": "^1.6.1",
         "babel-preset-react": "^6.24.1",
+        "babel-preset-react-app": "^3.1.1",
         "browser-sync": "^2.24.4",
         "css-loader": "^0.28.11",
         "file-loader": "^1.1.11",
@@ -36,6 +37,7 @@
     "devDependencies": {
         "eslint": "^4.19.1",
         "eslint-config-prettier": "^2.9.0",
+        "eslint-config-react-app": "^2.1.0",
         "eslint-plugin-prettier": "^2.6.0",
         "eslint-plugin-react": "^7.8.2",
         "prettier": "1.12.1"

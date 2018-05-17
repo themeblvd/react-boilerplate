@@ -3,7 +3,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 const path = require('path');
 
 module.exports = {
-    mode: 'development',
+    mode: process.env.NODE_ENV,
     entry: './src/index.js',
     output: {
         path: path.resolve(__dirname, 'public'),
@@ -30,13 +30,19 @@ module.exports = {
             /*
              * Process JavaScript files and run them
              * through babel.
+             *
+             * Note: The `babel-preset-react-app` is
+             * important, to give us public class field
+             * syntax (i.e. fat arrows and better this
+             * binding).
              */
             {
                 test: /\.js$/,
                 loader: 'babel-loader',
                 exclude: /node_modules/,
-                query: {
-                    presets: ['react']
+                options: {
+                    babelrc: false,
+                    presets: ['babel-preset-react-app']
                 }
             },
             /*
