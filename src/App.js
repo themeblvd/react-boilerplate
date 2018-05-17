@@ -8,7 +8,12 @@ export default class App extends Component {
         return (
             <div className="app">
                 <header>
-                    <img src={logo} width="100" height="100" />
+                    <img
+                        src={logo}
+                        alt="My React App"
+                        width="100"
+                        height="100"
+                    />
                     <h1>My React App</h1>
                 </header>
                 <Example />
