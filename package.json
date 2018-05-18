@@ -1,7 +1,7 @@
 {
-    "name": "react-boilerplate",
+    "name": "my-app",
     "version": "1.0.0",
-    "description": "A starting point for my own React apps, with the structure and tools I want.",
+    "description": "",
     "main": "index.js",
     "scripts": {
         "build": "NODE_ENV=development webpack",
