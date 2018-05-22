@@ -3,7 +3,7 @@ import './assets/scss/main.scss'; // Must come before components.
 import logo from './assets/img/logo.svg';
 import Example from './components/example';
 
-export default class App extends Component {
+class App extends Component {
     render() {
         return (
             <div className="app">
@@ -21,3 +21,5 @@ export default class App extends Component {
         );
     }
 }
+
+export default App;
