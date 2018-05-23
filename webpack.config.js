@@ -73,9 +73,11 @@ module.exports = {
              *    and url() from within the CSS.
              * 4. MiniCssExtractPlugin: Puts compiled CSS
              *    into a file, configured above.
+             *
+             * Note: Imported CSS files will also work.
              */
             {
-                test: /\.scss$/,
+                test: /\.(scss|css)$/,
                 use: [
                     MiniCssExtractPlugin.loader,
                     'css-loader',
