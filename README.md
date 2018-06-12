@@ -14,10 +14,11 @@ If you're looking for a full-stack boilerplate with React, state management, ser
 
 ## Project Structure
 
-* `public/` - Final build, for both development and production (see note below).
-    * `assets/` -
+* `public/` - Final build, for both development and production (see notes below).
+    * `assets/` - All static assets, organized by filetype.
+    * `index.html` - The single static webpage that should be served.
 * `src/` - **React app source files.**
-    * `assets/` - Images, SCSS files, etc.
+    * `assets/` - Assets like images, SCSS, etc, organized by filetype.
     * `components/` - React components.
     * `index.js` - Entry point for Webpack to compile final build.
     * `index.html` - HTML template for single page.
@@ -39,17 +40,17 @@ Another approach. Alternately, if you're using a service like [Netlify](https://
 
 These are the commands you'll use the most.
 
-* `npm run start` - Start development server and watch for changes.
+* `npm run start` - Start development server, watch for changes & continuously build into the `/public` directory.
 * `npm run build:prod` - Re-build the `/public` directory for production.
 
 ### Additional Commands
 
 Here are some additional commands that come in handy.
 
-* `npm run watch` - Watch changes and continually build files for development.
+* `npm run watch` - Watch for changes & continuously build into the `/public` directory.
 * `npm run build` - Build development files once.
 * `npm run server` - Run the development server.
 * `npm run js-lint` - Check for JavaScript linting errors.
 * `npm run js-lint:fix` - Allow JavaScript linter to fix what it can, automatically.
 
-*Note: `npm run start` essentially encompasses the first three commands above. But when debugging issues, it may be helpful to know you can run those commands individually.*
+*Note: `npm run start` essentially encompasses the first three commands above. But when debugging issues, it may be helpful to know you can run those commands separately.*
