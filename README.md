@@ -14,7 +14,7 @@ If you're looking for a full-stack boilerplate with React, state management, ser
 
 ## Project Structure
 
-* `public/` - Final build, for both development and production (see notes below).
+* `public/` - **Final build, for both development and production (see notes below).**
     * `assets/` - All static assets, organized by filetype.
     * `index.html` - The single static webpage that should be served.
 * `src/` - **React app source files.**
@@ -30,9 +30,9 @@ Because this project structure assumes no server-side functionality, I've made t
 
 **And how does that effect the development to production workflow?**
 
-Running `npm run start` or `npm run build` will produce the development state of the static application files within `/public` while you're working. And when you're read to publish your changes into production, you can run `npm run build:prod`, which will re-build the files within `/public`, and then just move those files off to where they need to go.
+Running `npm run start` or `npm run build` will produce the development state of the static application files within `/public` while you're working. And when you're ready to push your changes into production, you can run `npm run build:prod`, which will re-build the files within `/public`. Then, just move those production files off to where they need to go.
 
-Another approach. Alternately, if you're using a service like [Netlify](https://www.netlify.com/), you can incorporate this into your continuous integration. Whether your project exists locally on your computer or it's receiving changes on Netlify from your Github repo, the `/public` directory is what is served. So, for example, from you local machine you can run `npm run build`, but on Netlify, you'll tell it to run `npm run build:prod`.
+Another approach. Alternately, if you're using a service like [Netlify](https://www.netlify.com/), you can incorporate this into your continuous integration. Whether your project exists locally on your computer or it's receiving changes on Netlify from your Github repo, the `/public` directory is what's served. So, for example, from you local machine you can run `npm run build`, but on Netlify, you'll tell it to run `npm run build:prod` instead.
 
 ## Terminal Commands
 
