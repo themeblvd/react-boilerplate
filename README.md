@@ -1,6 +1,6 @@
 # React Boilerplate
 
-Here's my working React boilerplate. Aside from running basic, local development server with [Browsersync](https://browsersync.io/), this project structure assumes the server side of things is being handled elsewhere. Also, no Redux here.
+Here's my working React boilerplate. Aside from running a basic, local development server with [Browsersync](https://browsersync.io/), this project structure assumes the server side of things is being handled elsewhere. Also, no Redux or state management here.
 
 If you're looking for a full-stack boilerplate with React, state management, server, database and the whole shabang, check out my [MERN boilerplate](https://github.com/themeblvd/mern-boilerplate).
 

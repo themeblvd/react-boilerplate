@@ -1,1 +1,1 @@
-The app is compiled in this `public` directory with `npm run build`.
+The app is compiled in this `/public` directory, whether it's for development or production.
