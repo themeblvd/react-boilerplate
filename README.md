@@ -50,6 +50,7 @@ Here are some additional commands that come in handy.
 * `npm run watch` - Watch for changes & continuously build into the `/public` directory.
 * `npm run build` - Build development files once.
 * `npm run server` - Run the development server.
+* `npm run format` - Apply stylistic code formatting to project files.
 * `npm run js-lint` - Check for JavaScript linting errors.
 * `npm run js-lint:fix` - Allow JavaScript linter to fix what it can, automatically.
 
