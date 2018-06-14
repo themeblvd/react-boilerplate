@@ -4,22 +4,17 @@ import logo from './assets/img/logo.svg';
 import Example from './components/Example';
 
 class App extends Component {
-    render() {
-        return (
-            <div className="app">
-                <header>
-                    <img
-                        src={logo}
-                        alt="My React App"
-                        width="100"
-                        height="100"
-                    />
-                    <h1>My React App</h1>
-                </header>
-                <Example />
-            </div>
-        );
-    }
+  render() {
+    return (
+      <div className="app">
+        <header>
+          <img src={logo} alt="My React App" width="100" height="100" />
+          <h1>My React App</h1>
+        </header>
+        <Example />
+      </div>
+    );
+  }
 }
 
 export default App;

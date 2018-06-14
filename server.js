@@ -8,10 +8,10 @@ const historyFallback = require('connect-history-api-fallback');
  * Usage: `npm run server` or `npm run start`
  */
 browserSync({
-    files: './public/*',
-    watch: true,
-    server: {
-        baseDir: './public',
-        middleware: [historyFallback()] // Important! Allows react router to work properly.
-    }
+  files: './public/*',
+  watch: true,
+  server: {
+    baseDir: './public',
+    middleware: [historyFallback()] // Important! Allows react router to work properly.
+  }
 });
