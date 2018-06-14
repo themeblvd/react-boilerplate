@@ -56,3 +56,5 @@ Here are some additional commands that come in handy.
 * `npm run report` - Generates `./report.txt` with stats about module use from Webpack build.
 
 *Note: `npm run start` essentially encompasses the first three commands above. But when debugging issues, it may be helpful to know you can run those commands separately.*
+
+*Note: If you're wanting to test the production build, you'll want to run `npm run build:prod` and then `npm run server`. You do NOT want to run `npm run start` because that would re-build your files in development mode before starting the server.*
