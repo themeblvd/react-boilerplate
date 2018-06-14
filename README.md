@@ -53,5 +53,6 @@ Here are some additional commands that come in handy.
 * `npm run format` - Apply stylistic code formatting to project files.
 * `npm run js-lint` - Check for JavaScript linting errors.
 * `npm run js-lint:fix` - Allow JavaScript linter to fix what it can, automatically.
+* `npm run report` - Generates `./report.txt` with stats about module use from Webpack build.
 
 *Note: `npm run start` essentially encompasses the first three commands above. But when debugging issues, it may be helpful to know you can run those commands separately.*
