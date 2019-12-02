@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './assets/scss/main.scss'; // Must come before components.
 import logo from './assets/img/logo.svg';
-import Example from './components/Example';
+import Example from './components/Example'; //
 
 class App extends Component {
   render() {

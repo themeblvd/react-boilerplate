@@ -1,0 +1,37 @@
+{
+  "tabWidth": 2,
+  "trailingComma": "es5",
+  "singleQuote": true,
+  "printWidth": 100,
+  "bracketSpacing": true,
+  "overrides": [
+    {
+      "files": "*.scss",
+      "options": {
+        "tabWidth": 2,
+        "printWidth": 200
+      }
+    },
+    {
+      "files": "*.json",
+      "options": {
+        "tabWidth": 2,
+        "printWidth": 200
+      }
+    },
+    {
+      "files": "*.yml",
+      "options": {
+        "tabWidth": 2,
+        "printWidth": 200
+      }
+    },
+    {
+      "files": ".prettierrc",
+      "options": {
+        "tabWidth": 2,
+        "printWidth": 200
+      }
+    }
+  ]
+}
